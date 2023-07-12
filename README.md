@@ -1,5 +1,7 @@
 # The Community Comparison Engine
+Community Districts.zip contains the shape files in new york cities
 
-This is a prototype of part of the comparison tool we have been working on for The Expedition Works.
-This set of coding aims to input the structured form (containing "Age, Annual Income, Gender, Ethnicity, CrossStreet 1 & CrossStreet 2") and then find out the Community District of the particular row. 
-We then use Community Districts as our location boundaries to compare our input data with the ground truth data. Several statistical models will be used for the comparison.
+Data.zip is our population data files
+
+Comparison Engine notebook is our main notebook for this project
+It focuses on utilizing statistical models to test the statistical significance of a demographic feature, determining whether we should reevaluate our survey or maintain the survey results based on the conclusions drawn.
